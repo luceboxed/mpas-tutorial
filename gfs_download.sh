@@ -43,7 +43,7 @@ for fhr_num in $(seq $START_FHR $END_FHR); do
     
     echo "Queueing download: ${FILENAME}"
 
-    wget -nv "$FULL_URL" &
+    wget -q "$FULL_URL" &
 done
 
 wait
