@@ -4,7 +4,7 @@ sudo apt update && sudo apt install -y \
   build-essential gfortran gcc g++ make \
   openmpi-bin libopenmpi-dev \
   libnetcdf-dev libnetcdff-dev libpnetcdf-dev \
-  libpng-dev zlib1g-dev libjasper-dev \
+  libpng-dev zlib1g-dev \
   bzip2 csh tcsh git m4
 
 sudo ln -sf /usr/lib/x86_64-linux-gnu/libnetcdf* /usr/lib/
