@@ -1,6 +1,6 @@
 #!/bin/bash
 # Adapted from UGAWRF download script
-DATA_DIR="/path/to/download/DATA/GFS"
+DATA_DIR="~/mpas-workspace/files/forcing/GFS"
 START_FHR=0
 END_FHR=$1 # takes in a number of hours to download as argument, 27hr is good for 24hr run
 # --- End Configuration ---
