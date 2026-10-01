@@ -2,9 +2,6 @@
 set -euo
 
 cd
-mkdir -p mpas-workspace
-cd mpas-workspace
-git clone https://github.com/luceboxed/mpas-tutorial
 cd mpas-tutorial
 chmod +x ./preqs.sh
 ./preqs.sh
