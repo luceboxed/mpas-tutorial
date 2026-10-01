@@ -2,7 +2,7 @@
 set -euo
 
 cd
-mkdir mpas-workspace
+mkdir -p mpas-workspace
 cd mpas-workspace
 git clone https://github.com/luceboxed/mpas-tutorial
 cd mpas-tutorial
