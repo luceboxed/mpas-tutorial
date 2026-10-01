@@ -70,13 +70,13 @@ ln -s ungrib/Variable_Tables/Vtable.GFS Vtable
 
 
 echo '---------------------------------------'
-echo 'awaiting the finishing of downloads, may hang here for a minute! that's OK!'
+echo 'awaiting the finishing of downloads, may hang here for a minute! that is OK!'
 echo '---------------------------------------'
 
 wait
 
 echo '---------------------------------------'
-echo 'uncompressing and moving meshes and forcing data; it again may hang here for a minute! that is OK!'
+echo 'uncompressing and moving meshes and forcing data... it again may hang here for a minute! that is OK!'
 echo '---------------------------------------'
 tar -xjf ~/mpas-workspace/mpas_static.tar.bz2 -C ~/mpas-workspace/files/geog/ &
 tar -xzf ~/mpas-workspace/x1.40962.tar.gz -C ~/mpas-workspace/files/mesh/ &
