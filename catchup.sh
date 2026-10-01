@@ -78,8 +78,8 @@ wait
 echo '---------------------------------------'
 echo 'uncompressing and moving meshes and forcing data... it again may hang here for a minute! that is OK!'
 echo '---------------------------------------'
-tar -xjf ~/mpas-workspace/mpas_static.tar.bz2 -C ~/mpas-workspace/files/geog/ &
-tar -xzf ~/mpas-workspace/x1.40962.tar.gz -C ~/mpas-workspace/files/mesh/ &
+tar -xvjf ~/mpas-workspace/mpas_static.tar.bz2 -C ~/mpas-workspace/files/geog/ &
+tar -xvzf ~/mpas-workspace/x1.40962.tar.gz -C ~/mpas-workspace/files/mesh/ &
 wait
 cp ~/mpas-workspace/files/mesh/x1.40962.grid.nc ~/mpas-workspace/model/
 cp ~/mpas-workspace/files/mesh/x1.40962.graph.info.part.6 ~/mpas-workspace/model/
