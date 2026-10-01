@@ -2,7 +2,7 @@
 set -euo
 
 cd
-cd mpas-tutorial
+cd ~/mpas-workspace/mpas-tutorial
 chmod +x ./preqs.sh
 ./preqs.sh
 export NETCDF=/usr
