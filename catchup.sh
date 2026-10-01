@@ -22,7 +22,6 @@ wget -nv https://www2.mmm.ucar.edu/projects/mpas/atmosphere_meshes/x1.40962.tar.
 ls -lh
 
 mkdir -p ./model ./files/geog ./files/forcing ./files/mesh
-wait
 
 tar -xjf mpas_static.tar.bz2 -C ./files/geog/ &
 tar -xzf x1.40962.tar.gz -C ./files/mesh/ &
@@ -41,7 +40,7 @@ cp ~/mpas-workspace/MPAS-Model/stream_list.atmosphere.* .
 
 cd ~/mpas-workspace/mpas-tutorial
 chmod +x ./gfs_download.sh
-./gfs_download.sh 4
+./gfs_download.sh 4 &
 
 cd ..
 git clone https://github.com/wrf-model/WPS.git
